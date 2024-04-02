@@ -1,4 +1,4 @@
-/*
+
 import app.config.AppConfig;
 import app.model.AnimalsCage;
 import org.junit.Assert;
@@ -31,4 +31,3 @@ public class MainTest {
         }
     }
 }
-*/

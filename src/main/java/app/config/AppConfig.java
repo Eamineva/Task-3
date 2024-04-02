@@ -15,30 +15,12 @@ import java.util.Timer;
 @ComponentScan(basePackages = "app")
 public class AppConfig {
 
-    /*@Bean(name = "cat")
-    public Animal cat() {
-        return new Cat();
-    }*/
+
     @Bean(name = "dog")
-    //@Scope("singleton")
+
     public Animal dog() {
         return new Dog();
     }
 
-    //@Bean(name = "ancage")
-    /*public AnimalsCage ancage(){
-        //Timer timer=new Timer();
-        return Animal();
-    }*/
-    /*@Bean(name = "time")
-        public Timer getTimer(){
-        Timer timer=new Timer();
-        return timer;
-    }*/
 
-    /*@Bean(name = "time")
-    public Timer getTimer(){
-        //Timer timer=new Timer();
-        return new Timer();
-    }*/
 }

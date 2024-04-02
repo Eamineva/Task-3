@@ -6,20 +6,15 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("time")
-//@Scope("singleton")
-public class Timer {
-    //@Autowired
 
-    //private  AnimalsCage animalscage;
+public class Timer {
+
     private Long nanoTime = System.nanoTime();
 
-//    @Autowired
-@Qualifier("ancage")
-    public Long getTimer() {
+
+
+    public Long getTime() {
         return nanoTime;
     }
-//    @Autowired
-//    public Timer() {
 
-//    }
 }
